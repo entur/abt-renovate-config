@@ -45,6 +45,10 @@
       "packagePatterns": ["^@entur-private/"],
       "updateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
+    },
+    {
+      "updateTypes": [ "patch", "pin", "digest"],
+      "automerge": true
     }
   ]
 }
