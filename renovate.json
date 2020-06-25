@@ -39,6 +39,12 @@
       "registryUrls": [
         "https://entur2.jfrog.io/entur2/api/npm/npm-local"
       ]
+    },
+    {
+      "packageNames": ["no.entur"],
+      "packagePatterns": ["^@entur-private/"],
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
     }
   ]
 }
