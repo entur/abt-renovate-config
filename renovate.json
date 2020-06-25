@@ -5,7 +5,7 @@
   ],
   "prCreation": "status-success",
   "enabledManagers": ["maven", "npm", "circleci", "dockerfile", "gradle", "gradle-wrapper"],
-  "commitMessageExtra" : "from {{currentVersion}} to {{#if isMajor}}v{{{newMajor}}}{{else}}{{#if isSingleVersion}}v{{{toVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
+  "commitMessageExtra" : "from v{{currentVersion}} to {{#if isMajor}}v{{{newMajor}}}{{else}}{{#if isSingleVersion}}v{{{toVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
   "hostRules": [
     {
       "baseUrl": "https://entur2.jfrog.io/entur2",
