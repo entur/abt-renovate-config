@@ -26,8 +26,13 @@
   ],
   "packageRules": [
     {
+      "packagePatterns": [
+        "^((?!no.entur).)*$"
+      ],
       "managers": [
-        "maven"
+        "maven",
+        "gradle",
+        "gradle-wrapper"
       ],
       "registryUrls": [
         "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
@@ -44,7 +49,9 @@
         "^no.entur"
       ],
       "managers": [
-        "maven"
+        "maven",
+        "gradle",
+        "gradle-wrapper"
       ],
       "registryUrls": [
         "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
@@ -73,6 +80,20 @@
       ],
       "registryUrls": [
         "https://entur2.jfrog.io/entur2/api/npm/npm-local"
+      ]
+    },
+    {
+      "packagePatterns": [
+        "^((?!@entur-private).)*$"
+      ],
+      "updateTypes": [
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true,
+      "managers": [
+        "npm"
       ]
     }
   ]
