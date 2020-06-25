@@ -4,6 +4,7 @@
     "config:base"
   ],
   "prCreation": "status-success",
+  "requiredStatusChecks" : null,
   "hostRules": [
     {
       "baseUrl": "https://entur2.jfrog.io/entur2",
