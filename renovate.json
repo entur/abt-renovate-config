@@ -19,7 +19,8 @@
         "maven"
       ],
       "registryUrls": [
-        "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
+        "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release",
+        "https://entur2.jfrog.io/entur2/api/npm/npm-local"
       ]
     }
   ]
