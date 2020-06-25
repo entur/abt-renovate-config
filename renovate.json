@@ -32,7 +32,7 @@
       ]
     },
     {
-      "packageNames": ["entur-private"],
+      "packagePatterns": ["^@entur-private/"],
       "managers": [
         "npm"
       ],
