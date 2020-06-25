@@ -29,25 +29,49 @@
       ],
       "registryUrls": [
         "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
-      ]
+      ],
+      "updateTypes": [
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true
     },
     {
-      "packagePatterns": ["^@entur-private"],
+      "packagePatterns": [
+        "^no.entur"
+      ],
+      "managers": [
+        "maven"
+      ],
+      "registryUrls": [
+        "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
+      ],
+      "updateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true
+    },
+    {
+      "packagePatterns": [
+        "^@entur-private"
+      ],
+      "updateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true,
       "managers": [
         "npm"
       ],
       "registryUrls": [
         "https://entur2.jfrog.io/entur2/api/npm/npm-local"
       ]
-    },
-    {
-      "packagePatterns": ["^@entur-private", "^no.entur"],
-      "updateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    },
-    {
-      "updateTypes": [ "patch", "pin", "digest"],
-      "automerge": true
     }
   ]
 }
