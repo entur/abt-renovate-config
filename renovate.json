@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "prCreation": "status-success",
   "hostRules": [
     {
       "baseUrl": "https://entur2.jfrog.io/entur2",
@@ -11,6 +12,14 @@
         "username": "fRteRWitNMuCMhd1nYSIeQ6SDisaqzGYw2Y/OS+lBNjoZ8P7y76Z2/lMNGdwWBm1cY9BEJDBcLJlVTusDCquPnRYvC/cm7N88eYP3+S+z0hfcBx90NwfKA85sUlIxqruHTPJvV+Q5+782EslonPZMTkbuDYgDK0CmU79EGzNSc39WsZ/utC5qfo+s98yaEXM+foyw3jS5Gx5GCoF0YeIkUg/N0p6r1m1whyrlsPJQ/DdoddSqUKew2UVs2JtP8afIr/rT+HAvW+i6PvGEfHuWODA4JI39rBHOPRbztrYHMhWzzYAVjhzmAOOQ25oKj4cvFoj+mp0NrOUH0ireL4RVg=="
       },
       "hostType": "maven"
+    },
+    {
+      "baseUrl": "https://entur2.jfrog.io/entur2",
+      "encrypted": {
+        "password": "KC0cWpC/tMCVUNcREKvIfYuhqIuhG91GVPII/B0DVQIQ0zl2DZRpsR8dSusWqP7+FjRaklj5dogddJ1CZbh2xja37cui5Nu6wVQcIAQ7RumhojCJGLN6vGC/mBDFvtdFxcKOzNEqxyPRFbTRFZJ+DmEgZaYyUCyBaouOzFRE4jevOWFl0ujm3j/y/zN2bgSho95PWlB/PT2deDs414UElVkRz3l8TD2MvMWETtw9TMcp0rYnM03A/SMOEFVWS82MvKLL93Wc+VEBXuiB0Kv1/7UQtOPcFb5MeZVz94qpWbInM68JfMj/P6f1dEBxfP0Xv0dLtB5gDi5YU+N10kE9eg==",
+        "username": "fRteRWitNMuCMhd1nYSIeQ6SDisaqzGYw2Y/OS+lBNjoZ8P7y76Z2/lMNGdwWBm1cY9BEJDBcLJlVTusDCquPnRYvC/cm7N88eYP3+S+z0hfcBx90NwfKA85sUlIxqruHTPJvV+Q5+782EslonPZMTkbuDYgDK0CmU79EGzNSc39WsZ/utC5qfo+s98yaEXM+foyw3jS5Gx5GCoF0YeIkUg/N0p6r1m1whyrlsPJQ/DdoddSqUKew2UVs2JtP8afIr/rT+HAvW+i6PvGEfHuWODA4JI39rBHOPRbztrYHMhWzzYAVjhzmAOOQ25oKj4cvFoj+mp0NrOUH0ireL4RVg=="
+      },
+      "hostType": "npm"
     }
   ],
   "packageRules": [
@@ -19,7 +28,14 @@
         "maven"
       ],
       "registryUrls": [
-        "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release",
+        "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
+      ]
+    },
+    {
+      "managers": [
+        "npm"
+      ],
+      "registryUrls": [
         "https://entur2.jfrog.io/entur2/api/npm/npm-local"
       ]
     }
