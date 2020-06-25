@@ -41,7 +41,7 @@
       ]
     },
     {
-      "packagePatterns": ["^@entur-private", "^no.entur."],
+      "packagePatterns": ["^@entur-private", "^no.entur"],
       "updateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     },
