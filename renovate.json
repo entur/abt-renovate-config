@@ -6,12 +6,20 @@
   "prCreation": "status-success",
   "enabledManagers": ["maven", "npm", "circleci", "dockerfile", "gradle", "gradle-wrapper"],
   "commitMessageExtra" : "from v{{currentVersion}} to {{#if isMajor}}v{{{newMajor}}}{{else}}{{#if isSingleVersion}}v{{{toVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
-  "automerge": true,
   "major": {
     "automerge": false
   },
   "minor": {
     "automerge": false
+  },
+  "patch": {
+    "automerge": true
+  },
+  "pin": {
+    "automerge": true
+  },
+  "digest": {
+    "automerge": true
   },
   "hostRules": [
     {
