@@ -25,17 +25,6 @@
       "registryUrls": [
         "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
       ]
-    },
-    {
-      "packagePatterns": ["^no.entur"],
-      "updateTypes": ["minor","patch", "pin", "digest"],
-      "automerge": true,
-      "managers": [
-        "maven"
-      ],
-      "registryUrls": [
-        "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
-      ]
     }
   ]
 }
