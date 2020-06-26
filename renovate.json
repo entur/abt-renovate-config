@@ -29,6 +29,13 @@
       "updateTypes": ["patch", "pin", "digest"],
       "automerge": true,
       "managers": [
+        "npm"
+      ]
+    },
+    {
+      "updateTypes": ["patch", "pin", "digest"],
+      "automerge": true,
+      "managers": [
         "maven"
       ],
       "registryUrls": [
