@@ -34,14 +34,14 @@
   ],
   "packageRules": [
     {
-      "datasources": ["maven", "gradle"],
+      "datasources": ["maven", "gradle-version"],
       "registryUrls": ["https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"],
       "updateTypes": ["patch", "pin", "digest"],
       "automerge": true
     },
     {
       "packagePatterns": ["^no.entur"],
-      "datasources": ["maven", "gradle"],
+      "datasources": ["maven", "gradle-version"],
       "updateTypes": ["minor", "patch", "pin", "digest"],
       "registryUrls": ["https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"],
       "automerge": true
