@@ -28,6 +28,7 @@
       ]
     },
     {
+      "packagePatterns": ["^no.entur"],
       "updateTypes": ["minor","patch", "pin", "digest"],
       "automerge": true,
       "managers": [
