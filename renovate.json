@@ -6,6 +6,13 @@
   "prCreation": "status-success",
   "enabledManagers": ["maven", "npm", "circleci", "dockerfile", "gradle", "gradle-wrapper"],
   "commitMessageExtra" : "from v{{currentVersion}} to {{#if isMajor}}v{{{newMajor}}}{{else}}{{#if isSingleVersion}}v{{{toVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "minor": {
+    "automerge": false
+  },
   "hostRules": [
     {
       "baseUrl": "https://entur2.jfrog.io/entur2",
@@ -25,23 +32,6 @@
     }
   ],
   "packageRules": [
-    {
-      "updateTypes": ["patch", "pin", "digest"],
-      "automerge": true,
-      "managers": [
-        "npm"
-      ]
-    },
-    {
-      "updateTypes": ["patch", "pin", "digest"],
-      "automerge": true,
-      "managers": [
-        "maven"
-      ],
-      "registryUrls": [
-        "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
-      ]
-    },
     {
       "packagePatterns": ["^no.entur"],
       "updateTypes": ["minor","patch", "pin", "digest"],
