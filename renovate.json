@@ -20,9 +20,7 @@
   "digest": {
     "automerge": true
   },
-  "encrypted": {
-    "npmrc": "H4iKS4RGJW01oJ3CHNGRdKQufPIFG0MV/nGF70rjLs47kPAegH78E7WueYcdvb8AMP+0uNp8dD5pIvk7FQmOuHggpaULC2QBwAuZHph+RiWbrATeveB1ylCsANI98Xqq9ov93cKz9Dyd/cf9OQ6nN8e+48gY/Q6n9Qv7Jr7Zkgm8lbiFg6hzNNf47hv7VL/P1BhKxZLSCtofncSubTtZkBX4XgVr+hFn5TtUyP8uJzJ6aSwiFgXyDTOvAieu2S7GQDbbaD1HYoz8VRQFta/5XY0CciB0ODqXvwXG1Zg7VngnSr5yWpMvgM+I5GOhNmrJIR0MHtn14ThTUCwNUNEu8g=="
-  },
+  "npmrc": "@entur-private:registry=https://entur2.jfrog.io/entur2/api/npm/npm-local",
   "hostRules": [
     {
       "baseUrl": "https://entur2.jfrog.io/entur2",
@@ -31,6 +29,14 @@
         "username": "fRteRWitNMuCMhd1nYSIeQ6SDisaqzGYw2Y/OS+lBNjoZ8P7y76Z2/lMNGdwWBm1cY9BEJDBcLJlVTusDCquPnRYvC/cm7N88eYP3+S+z0hfcBx90NwfKA85sUlIxqruHTPJvV+Q5+782EslonPZMTkbuDYgDK0CmU79EGzNSc39WsZ/utC5qfo+s98yaEXM+foyw3jS5Gx5GCoF0YeIkUg/N0p6r1m1whyrlsPJQ/DdoddSqUKew2UVs2JtP8afIr/rT+HAvW+i6PvGEfHuWODA4JI39rBHOPRbztrYHMhWzzYAVjhzmAOOQ25oKj4cvFoj+mp0NrOUH0ireL4RVg=="
       },
       "hostType" : "maven"
+    },
+    {
+      "baseUrl": "https://entur2.jfrog.io/entur2/api/npm",
+      "encrypted": {
+        "password": "KC0cWpC/tMCVUNcREKvIfYuhqIuhG91GVPII/B0DVQIQ0zl2DZRpsR8dSusWqP7+FjRaklj5dogddJ1CZbh2xja37cui5Nu6wVQcIAQ7RumhojCJGLN6vGC/mBDFvtdFxcKOzNEqxyPRFbTRFZJ+DmEgZaYyUCyBaouOzFRE4jevOWFl0ujm3j/y/zN2bgSho95PWlB/PT2deDs414UElVkRz3l8TD2MvMWETtw9TMcp0rYnM03A/SMOEFVWS82MvKLL93Wc+VEBXuiB0Kv1/7UQtOPcFb5MeZVz94qpWbInM68JfMj/P6f1dEBxfP0Xv0dLtB5gDi5YU+N10kE9eg==",
+        "username": "fRteRWitNMuCMhd1nYSIeQ6SDisaqzGYw2Y/OS+lBNjoZ8P7y76Z2/lMNGdwWBm1cY9BEJDBcLJlVTusDCquPnRYvC/cm7N88eYP3+S+z0hfcBx90NwfKA85sUlIxqruHTPJvV+Q5+782EslonPZMTkbuDYgDK0CmU79EGzNSc39WsZ/utC5qfo+s98yaEXM+foyw3jS5Gx5GCoF0YeIkUg/N0p6r1m1whyrlsPJQ/DdoddSqUKew2UVs2JtP8afIr/rT+HAvW+i6PvGEfHuWODA4JI39rBHOPRbztrYHMhWzzYAVjhzmAOOQ25oKj4cvFoj+mp0NrOUH0ireL4RVg=="
+      },
+      "hostType" : "npm"
     }
   ],
   "packageRules": [
