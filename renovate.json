@@ -21,9 +21,8 @@
     "automerge": true
   },
   "encrypted": {
-    "npmToken": "ftT5QtQIKWHZZo/5mINbM5ixH5CLEaPRgwGaNkcyDHes5ESKbG678gDtYY8ame+347he1wW31lLTsz8S+3/A6Hbozfyojk+zRNVSlKvLhDuMHLZWemyG3gmIpmVo/48MW0hWFplAY+Bq6eVsm7QeEnyHHDXCYiR51awHDlJrjIOyElu4GWDp+sEmaoc16a4x92xLqdkN/edgGk7UZlIgXy/mRkAymxr4agw/Vm+m0OeCs8SliHjGvku61F113wh9isAgKK4/ifAxS5b7gWOsangaJl3OeKl+q3sJSf3754W4qlCR/QIaAIwKk2Wdw+4YTq3mKSSYnS4Q7wwRNudZTA=="
+    "npmrc": "H4iKS4RGJW01oJ3CHNGRdKQufPIFG0MV/nGF70rjLs47kPAegH78E7WueYcdvb8AMP+0uNp8dD5pIvk7FQmOuHggpaULC2QBwAuZHph+RiWbrATeveB1ylCsANI98Xqq9ov93cKz9Dyd/cf9OQ6nN8e+48gY/Q6n9Qv7Jr7Zkgm8lbiFg6hzNNf47hv7VL/P1BhKxZLSCtofncSubTtZkBX4XgVr+hFn5TtUyP8uJzJ6aSwiFgXyDTOvAieu2S7GQDbbaD1HYoz8VRQFta/5XY0CciB0ODqXvwXG1Zg7VngnSr5yWpMvgM+I5GOhNmrJIR0MHtn14ThTUCwNUNEu8g=="
   },
-  "npmrc": "registry=https://entur2.jfrog.io/entur2/api/npm/npm-local/\n//entur2.jfrog.io/entur2/api/npm/npm-local/:_authToken=${NPM_TOKEN}",
   "hostRules": [
     {
       "baseUrl": "https://entur2.jfrog.io/entur2",
@@ -50,12 +49,7 @@
       "packagePatterns": ["^@entur-private"],
       "updateTypes": ["minor","patch", "pin", "digest"],
       "automerge": true,
-      "managers": [
-        "npm"
-      ],
-      "registryUrls": [
-        "https://entur2.jfrog.io/entur2/api/npm/npm-local/"
-      ]
+      "managers": ["npm"]
     }
   ]
 }
