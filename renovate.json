@@ -34,6 +34,7 @@
       "encrypted": {
         "npmToken": "ftT5QtQIKWHZZo/5mINbM5ixH5CLEaPRgwGaNkcyDHes5ESKbG678gDtYY8ame+347he1wW31lLTsz8S+3/A6Hbozfyojk+zRNVSlKvLhDuMHLZWemyG3gmIpmVo/48MW0hWFplAY+Bq6eVsm7QeEnyHHDXCYiR51awHDlJrjIOyElu4GWDp+sEmaoc16a4x92xLqdkN/edgGk7UZlIgXy/mRkAymxr4agw/Vm+m0OeCs8SliHjGvku61F113wh9isAgKK4/ifAxS5b7gWOsangaJl3OeKl+q3sJSf3754W4qlCR/QIaAIwKk2Wdw+4YTq3mKSSYnS4Q7wwRNudZTA=="
       },
+      "npmrc": "registry=https://entur2.jfrog.io/entur2/api/npm\n//entur2.jfrog.io/entur2/api/npm:_authToken=${NPM_TOKEN}",
       "hostType" : "npm"
     }
   ],
