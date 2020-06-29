@@ -57,7 +57,7 @@
         "npm"
       ],
       "registryUrls": [
-        "https://entur2.jfrog.io/entur2/api/npm/npm-local"
+        "https://entur2.jfrog.io/entur2/api/npm/npm-local/"
       ]
     }
   ]
