@@ -20,12 +20,13 @@
   "digest": {
     "automerge": true
   },
-
+  "encrypted": {
+    "npmrc": "VkGXOBUbBnLtU51qs+BUWIloSKJ/ior88YsYVXK6rYGDwOpElNbG2kW4AAv0acoOAe+52vvkaY8mhUU4qxyVkHDizOVXVZMDMtw2Brv3QfUsGJZZ/bXFogVWQXZgxNCofuCmcBiApdxHXpOxpXNvBpPQBphYzNWXEhWj1K4XJmsTVgrH9elHJkXGmvFRYE9kCJYxCVFUoLjNV8mnp4wt2ZlO65frahcN4VhcfPf8YKeGsGlpgC1BfD0mFz1VIm5jYB5KnUHa6eQ/L5R3PGEFjzMm8c4dJ1ARDgkUeHcpodOjIUYbM8rH1Q8CVYjgGVXHgEH14SGxhhR3bBbwl9NAQw=="
+  },
   "hostRules": [
     {
       "baseUrl": "https://entur2.jfrog.io/entur2",
       "encrypted": {
-        "npmrc": "lh4SxeFWbHeGHVKPXcunZB5kcdRA25FUzm2mEcW7jcmjd0nZuO9zBTL7qP+KbGPumOAHoot42NrzrDM7t4A2f8urOxBczIJ+wDt1NGdBt2pIPfEGqyMG+pornN0wEapDRh/Btg3Yr8M+xShp1qBJNr6rbKs7rY8DBau7D4TX/EJHOesMagZMF/h+uJow5bMHtga7L9uyYwtQuOpII4JCHwn5rHBDBGzUSFGK14XIopBpuiolCoa4x7uPsWprWfHur20j7pe1ebCvdWrnLRZ6iaV7hC+tbEKLNGaQf9kKVUkjOsL2qgoi/I9gioaLcgcoFRZasH1BgGCVaUc4Sm5+gg==",
         "password": "tRE/GszlfbLLxnWdGGZWIMViFTjlo1kWg6KDosQLplV/CivzTZJV2yIQmKtNDUKg64f2JGNQiwqSAksdR8lqhMGdjM/DgJadsknj5JjmXMU0bCioK20EuAOqSEhrSJwGt1uqMmjbeQdlmZfSuLnwW9Rfd5cBQJwX5yDXB5OAhJTQKnyjJBQhRsrUCfLJJr8OtCTx/0TTGb27a2LCxD+BOCYw6wwjDDebByMrH0Pi8dLFA7fGQdwbwFRhu1mKq8fUhVrX62VKBTR9Q3xpFphM7wl389NdF/9LugaEtIr/atiWfVJWL9cwai/pGhNy0JLKhjGHfmJeX/YQ8KNCZK+XWA==",
         "username": "fRteRWitNMuCMhd1nYSIeQ6SDisaqzGYw2Y/OS+lBNjoZ8P7y76Z2/lMNGdwWBm1cY9BEJDBcLJlVTusDCquPnRYvC/cm7N88eYP3+S+z0hfcBx90NwfKA85sUlIxqruHTPJvV+Q5+782EslonPZMTkbuDYgDK0CmU79EGzNSc39WsZ/utC5qfo+s98yaEXM+foyw3jS5Gx5GCoF0YeIkUg/N0p6r1m1whyrlsPJQ/DdoddSqUKew2UVs2JtP8afIr/rT+HAvW+i6PvGEfHuWODA4JI39rBHOPRbztrYHMhWzzYAVjhzmAOOQ25oKj4cvFoj+mp0NrOUH0ireL4RVg=="
       }
