@@ -20,7 +20,9 @@
   "digest": {
     "automerge": true
   },
-  "npmrc": "@entur-private:registry=https://entur2.jfrog.io/entur2/api/npm/npm-local",
+  "encrypted": {
+    "npmrc": "X4i3o+I95yLYm6f0AFj4SkIytXb1x4i9rE2oks22pG6cYOW7vv5KF3lY6isp3LNq0VY0vZMTTJbCqhVXGc07g232a7kYZuDiSwBK0DTslxgbQfQRAjmjy0gJnj/AHl0LEJ1sdt6UBpalXe3imK3e7/c1vKu7EQgsY+Qm6049H781yAvoJgyfkGUgilbSIHqcxtbu4JyLtuUZxszYUnrej2qyqw/PPLRKhcok1LrGkFdti4+7XdDX89/w6yBJIi9KWWoZlZnbrkJKm8UpuJbqqodSl58ohwB2PcOBBH8lvuWC+lgOURLooPJOTSPI4F2pwTvEd4wslDMKPb+D6zK2sQ=="
+  },
   "hostRules": [
     {
       "baseUrl": "https://entur2.jfrog.io/entur2",
