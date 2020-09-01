@@ -27,8 +27,8 @@
     {
       "baseUrl": "https://entur2.jfrog.io/entur2",
       "encrypted": {
-        "password": "tRE/GszlfbLLxnWdGGZWIMViFTjlo1kWg6KDosQLplV/CivzTZJV2yIQmKtNDUKg64f2JGNQiwqSAksdR8lqhMGdjM/DgJadsknj5JjmXMU0bCioK20EuAOqSEhrSJwGt1uqMmjbeQdlmZfSuLnwW9Rfd5cBQJwX5yDXB5OAhJTQKnyjJBQhRsrUCfLJJr8OtCTx/0TTGb27a2LCxD+BOCYw6wwjDDebByMrH0Pi8dLFA7fGQdwbwFRhu1mKq8fUhVrX62VKBTR9Q3xpFphM7wl389NdF/9LugaEtIr/atiWfVJWL9cwai/pGhNy0JLKhjGHfmJeX/YQ8KNCZK+XWA==",
-        "username": "fRteRWitNMuCMhd1nYSIeQ6SDisaqzGYw2Y/OS+lBNjoZ8P7y76Z2/lMNGdwWBm1cY9BEJDBcLJlVTusDCquPnRYvC/cm7N88eYP3+S+z0hfcBx90NwfKA85sUlIxqruHTPJvV+Q5+782EslonPZMTkbuDYgDK0CmU79EGzNSc39WsZ/utC5qfo+s98yaEXM+foyw3jS5Gx5GCoF0YeIkUg/N0p6r1m1whyrlsPJQ/DdoddSqUKew2UVs2JtP8afIr/rT+HAvW+i6PvGEfHuWODA4JI39rBHOPRbztrYHMhWzzYAVjhzmAOOQ25oKj4cvFoj+mp0NrOUH0ireL4RVg=="
+        "password": "lqteRDvR2krW8pOq85MVVGoTGgYr5UEAi3Yue28bTEkIlXGEngpIVbnQPZsHhWdXrS9B1jBvMDYMef1gvP62UG3Xp1rqvECa3KjShkOTXdb4VJSqHQUD8MWSPsFWF0Z4fXkNgvo0laMKDHO+HYbzjdv4VPkwc3iSUj1jRbWW2suTS0JxYBho2ygwKaqKfq0jza1G5pAGkP5BNP6fhzfYxDf3eQr8OGbx9RHY4uY/u1T1kxUMKGTvkmCKk0ugBh4X/vghW6TZLTnX2ld1FoLJr07+hcQTTsI2AOrrQMxHEh1xRZDdqUgK3fTcA1hApQpWGbZRv/K4+xTtIA/CyJW7DQ==",
+        "username": "bOx2fbmFk/Jmgyg4rbfn7d4aTis3UmU+49OKiEUJ8EgxZrgW5eQCGWD+uT14BeKZ/24TxdleJXV0BDa0QB6xZ4epcQWk0tdv048/86sjXhCviFZ5GhHEzSirokoCU+gymDyjEsKLWUzC05EiH95aHVbhWm1fo96XQHa8cgXXXmaPfdIy8ayiwR/l22yHeckBnBhDcJJky8QTCB3Gc8lX43k7sEUVnNrYp+gw4p58B52pKnjnBzkJN36hLnYkN6+pwjW3lTP/5XvPCniuQo9T0Ikjw5wAGHCcI+LXlAzg3g+f1xUCai4xIhgn0qAvMWFPgJslCZT/kJiYvW2Hsv8wfw=="
       }
     }
   ],
@@ -38,7 +38,9 @@
       "updateTypes": ["minor","patch", "pin", "digest"],
       "automerge": true,
       "managers": [
-        "maven"
+        "maven",
+        "gradle",
+        "gradle-wrapper"
       ],
       "registryUrls": [
         "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
