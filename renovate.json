@@ -49,8 +49,5 @@
       "automerge": true,
       "managers": ["npm"]
     }
-  ],
-  "encrypted": {
-    "npmrc": "VkGXOBUbBnLtU51qs+BUWIloSKJ/ior88YsYVXK6rYGDwOpElNbG2kW4AAv0acoOAe+52vvkaY8mhUU4qxyVkHDizOVXVZMDMtw2Brv3QfUsGJZZ/bXFogVWQXZgxNCofuCmcBiApdxHXpOxpXNvBpPQBphYzNWXEhWj1K4XJmsTVgrH9elHJkXGmvFRYE9kCJYxCVFUoLjNV8mnp4wt2ZlO65frahcN4VhcfPf8YKeGsGlpgC1BfD0mFz1VIm5jYB5KnUHa6eQ/L5R3PGEFjzMm8c4dJ1ARDgkUeHcpodOjIUYbM8rH1Q8CVYjgGVXHgEH14SGxhhR3bBbwl9NAQw=="
-  }
+  ]
 }
