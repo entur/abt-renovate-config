@@ -33,8 +33,6 @@
   "packageRules": [
     {
       "packagePatterns": ["^no.entur"],
-      "updateTypes": ["minor","patch", "pin", "digest"],
-      "automerge": true,
       "managers": [
         "maven",
         "gradle",
@@ -46,8 +44,6 @@
     },
     {
       "packagePatterns": ["^@entur-private"],
-      "updateTypes": ["minor","patch", "pin", "digest"],
-      "automerge": true,
       "managers": ["npm"]
     }
   ]
