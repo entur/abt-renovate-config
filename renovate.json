@@ -41,14 +41,10 @@
       "registryUrls": [
         "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
       ]
-    },
-    {
-      "packagePatterns": ["^@entur-private"],
-      "managers": ["npm"]
     }
   ],
   "encrypted": {
     "npmToken": "WZYX8AvtaNmdvZkVzsSjhjFCr9smBKcAzS/bFnYESZBDAfgE3Gri6/Zy2bmuIJpXP2rqhrX0UYxD04UJQ7p0Lz9CM+j7dpkfsoQVP8jllEX7j+QxchYsAWb5TcXmGCvSIfTk7x0Bs62+FM7oXwkvsMDArfjYy/xIhhrUpWEANwZeXcw4R1xNRsUVf70u6gDVVS8OXAuoH31XGC/ovgjht0+D46Mzu1shD/SX2jRqAR+Gi8X7p5VSUFlRtwJbYUPtl1Bc1oIZqfobMoS6gWFImZnc1I2ATb66tKgmhrCwuwUAM8kpMd96gHwwIgUm4uvJHitZK2GMDWG1TMWg6mgZ9w=="
   },
-  "npmrc": "@entur-private:registry=https://entur2.jfrog.io/entur2/api/npm/npm-repo/ //entur2.jfrog.io/entur2/api/npm/npm-repo/:_password=${NPM_TOKEN} //entur2.jfrog.io/entur2/api/npm/npm-repo/:username=renovatebot-id-basert //entur2.jfrog.io/entur2/api/npm/npm-repo/:email=teamkb@entur.org //entur2.jfrog.io/entur2/api/npm/npm-repo/:always-auth=true"
+  "npmrc": "@entur-private:registry=https://entur2.jfrog.io/entur2/api/npm/npm-repo/\n//entur2.jfrog.io/entur2/api/npm/npm-repo/:_password=${NPM_TOKEN}\n//entur2.jfrog.io/entur2/api/npm/npm-repo/:username=renovatebot-id-basert\n//entur2.jfrog.io/entur2/api/npm/npm-repo/:email=teamkb@entur.org\n//entur2.jfrog.io/entur2/api/npm/npm-repo/:always-auth=true"
 }
