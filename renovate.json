@@ -46,5 +46,8 @@
       "packagePatterns": ["^@entur-private"],
       "managers": ["npm"]
     }
-  ]
+  ],
+  "encrypted": {
+    "npmrc": "dbuHnJxUHVqGtbK9em43z8FVVh5bEwkkSgVTKhdIwdEg1DCZumX/LpYMuELetHSp2S5XsOaJPunUji+Uz2j4ULJe9QJN+fQr13v8JZmm96Wc95jdKfYopSvzc7Cx3z1DyWV0Qz27Qun+jIh+jJvBuyYNpNbNev6olhEP/gWQRGhgf9dOih8UrIWD8R3LJ8ESX4y4sISbXPUzfTwYXA9+zJabCVwoJ9yY/onr0r8V8nkmgDkHUfUOEUckx8UEveMs8g5AM9jpYrsZxfEP6cvrQqLydGYPbtjNmMAhmHV+0Bh0Lor1YLsOEjy/1fbakxExlzK0crJcUaJB11pKxLr0aQ=="
+  }
 }
