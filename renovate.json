@@ -44,10 +44,13 @@
     },
     {
       "packagePatterns": ["^@entur-private"],
-      "managers": ["npm"]
+      "managers": ["npm"],
+      "registryUrls": [
+        "https://entur2.jfrog.io/entur2/api/npm/npm-local"
+      ]
     }
   ],
   "encrypted": {
-    "npmrc": "VEOcemfErleC3RC6RhzB7KUAqzEUQ6YhBCs4ShghfGa9z5Rmna8o2BhdkuH87ffHipaU1geTAGYE7kz5t+90nOJ0azqsLGSz5Prr5SzRJb+5dhBKZOhnPsFT1Vq3namkcluU2FrTypYpPo9CauYXkKMM9tiTpybO1NrxL5C4Gmi7wn1fLaCgIa6KVJ5dgrEUMC/ovvKNXQ/Bo1l3jrBwPXNCR9aANuDPSOSH4X3asKg7QLySYl+8otrwd514w4VGhTjfCwPnuUAxxJ3pVXIken+0EgQojwwfcX3y7pX49oOdLkYZQkVZcG2QHbhu+q2bnxWIPVRL+sQTTKvuj1OiLA=="
+    "npmrc": "dLOgUt/ST15TIhnCrvduDN+xJik4SP78VcD5udkPJ9xomVXqjxEAWSlWCcpaCNVoMr/6yYv7BjqQisi2XfdMQyP0Jg75N6oLNW9jsIm2LO1NMJiGsi/4loclDgmZO74T0IuTcT1q54gVxA69SO5vGaa/7RlgGTuYaxBLJxi9idNvn1ldmycnx2mQNz0g/LlDIuCSDuHJbG9Fy+8n6q1CDhG+tm3emeP2oAZlrMVXavALzwKtRBVaQpkWcmS6WJIvIpFyOy9/IKD3hJvqFAMxF2KdoOSAMf9AW3ANT/3kjsd1/JJVq1Gybua+X9CuEHA2yZQhI2MX72L8gTftZ+dxLg=="
   }
 }
