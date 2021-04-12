@@ -80,6 +80,15 @@
       "registryUrls": [
         "https://entur2.jfrog.io/entur2/entur-team-kontobasert-billettering-release"
       ]
+    },
+    {
+      "packagePatterns": ["^com.apollographql"],
+      "managers": [
+        "maven",
+        "gradle",
+        "gradle-wrapper"
+      ],
+      "groupName": "Apollo dependencies"
     }
   ],
   "encrypted": {
