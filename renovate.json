@@ -71,6 +71,15 @@
   ],
   "packageRules": [
     {
+      "groupName": "Entur packages",
+      "matchPackageNames": [
+        "@entur"
+      ],
+      "managers": [
+        "npm"
+      ]
+    },
+    {
       "packagePatterns": ["^no.entur"],
       "managers": [
         "maven",
