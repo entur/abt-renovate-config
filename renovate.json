@@ -72,9 +72,7 @@
   "packageRules": [
     {
       "groupName": "Entur packages",
-      "matchPackageNames": [
-        "@entur"
-      ],
+      "matchPackagePatterns": ["^@entur/"],
       "managers": [
         "npm"
       ]
