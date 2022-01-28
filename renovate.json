@@ -78,18 +78,7 @@
       ]
     },
     {
-      "packagePatterns": ["^org.entur.logging"],
-      "managers": [
-        "maven",
-        "gradle",
-        "gradle-wrapper"
-      ],
-      "registryUrls": [
-        "https://entur2.jfrog.io/entur2/entur-release-standard/"
-      ]
-    },
-    {
-      "packagePatterns": ["^no.entur"],
+      "packagePatterns": ["^"],
       "managers": [
         "maven",
         "gradle",
