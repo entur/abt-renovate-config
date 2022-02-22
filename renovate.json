@@ -96,6 +96,10 @@
         "gradle-wrapper"
       ],
       "groupName": "Apollo dependencies"
+    },
+    {
+      "matchPackageNames": ["org.sonatype.plugins:nexus-staging-maven-plugin"],
+      "enabled": false
     }
   ],
   "encrypted": {
