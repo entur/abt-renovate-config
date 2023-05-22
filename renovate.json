@@ -107,6 +107,12 @@
     {
       "matchPackageNames": ["org.sonatype.plugins:nexus-staging-maven-plugin"],
       "enabled": false
+    },
+    {
+      "groupName": "vite packages",
+      "matchPackagePatterns": [
+        "^vite", "^@vitejs/"
+      ]
     }
   ],
   "encrypted": {
