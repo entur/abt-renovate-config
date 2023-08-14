@@ -90,7 +90,7 @@
       ]
     },
     {
-      "packagePatterns": ["^"],
+      "packagePatterns": ["^no.entur", "^org.entur"],
       "managers": [
         "maven",
         "gradle",
