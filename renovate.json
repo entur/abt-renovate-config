@@ -83,6 +83,20 @@
   ],
   "packageRules": [
     {
+      "matchDatasources": [
+        "maven"
+      ],
+      "registryUrls": [
+        "https://repo1.maven.org/maven2",
+        "https://plugins.gradle.org/m2/",
+        "https://maven.google.com/",
+        "https://jitpack.io",
+        "https://scandit.bintray.com/DataCapture",
+        "https://repo.osgeo.org/",
+        "https://packages.confluent.io/maven"
+      ]
+    },
+    {
       "groupName": "Entur packages",
       "matchPackagePatterns": ["^@entur/"],
       "managers": [
