@@ -1,6 +1,7 @@
-# abt-renovate-config:
-
+# abt-renovate-config
 Common renovate bot config for ABT projects.
+
+Go to [Mend](https://developer.mend.io/) for debugging / manual invocation.
 
 ## Exceptions
 
