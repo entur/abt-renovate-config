@@ -63,7 +63,6 @@
   },
   "prConcurrentLimit": 20,
   "prHourlyLimit": 10,
-  "prCreation": "not-pending",
   "hostRules": [
     {
       "baseUrl": "https://entur2.jfrog.io",
