@@ -146,7 +146,7 @@
     }
   ],
   "encrypted": {
-    "npmToken": "WZYX8AvtaNmdvZkVzsSjhjFCr9smBKcAzS/bFnYESZBDAfgE3Gri6/Zy2bmuIJpXP2rqhrX0UYxD04UJQ7p0Lz9CM+j7dpkfsoQVP8jllEX7j+QxchYsAWb5TcXmGCvSIfTk7x0Bs62+FM7oXwkvsMDArfjYy/xIhhrUpWEANwZeXcw4R1xNRsUVf70u6gDVVS8OXAuoH31XGC/ovgjht0+D46Mzu1shD/SX2jRqAR+Gi8X7p5VSUFlRtwJbYUPtl1Bc1oIZqfobMoS6gWFImZnc1I2ATb66tKgmhrCwuwUAM8kpMd96gHwwIgUm4uvJHitZK2GMDWG1TMWg6mgZ9w=="
+    "npmToken": "wcFMA/xDdHCJBTolARAAgaMKCCCXq1dFNSPWOaKp4LiKoPhmibzdnGAKR+SBXmgMA/e2yle3bZx74lyIm4m7+O5jye9nox39/G+7aTzPp+7IyNSOWvpa2HiZ24ay/OpvE+UbCXTk7/Ilb6dDajIQ9LRopOmk1+NumQ43I1+rX//+PYWz0nrJA/T1rgJLLxW98jlJkbrXucEnAKki5ufIOt0+BzZ2j1Sy380ICicCL/ssv3C3tI7+qN3Z47ZAA9Fv7k5oSQbBMeH/EEYji7hyEUGLDd21vXTypo2NIu3JS34qsrDfSApA4z+8PKQJbKBcELz75PB8oMCw1E53c5FLvx8CkOz9UzTI2ELGXpDVK9wUMYtZ5T5U5Tu1NhA2Pl/Q2IaS2vvJT3q6dsF3YYgM5qSTtyAbh7uNndERzIIETk/gcZqwkPkc3rHFf6QCzmTpBOJE2kgsXO38rdmBcRO20uI8T5vOK6rwTiJYQtsUUh9pZ6IzrP/sKA1QSfmgtcrmBOni930ZYCxhgSRYMdo/ctpT9O3vEZ5uNNeumhACGzJ36JzMyPwW7Wpyz/0udr27SYVUlzjMfiJwOkU6ShVgGHRCUINGdBmcKqdCtLtmBNe0yehG2V6Bnvw5q3ZmX7w81Kq9XGzzSPT2tvvfCWv5+iKNay99uW8tokke0GSCu3q4CE4PmbFtlzjBWyr9LQXSjAEZwf3kfVUPMZelFJ+24VacDYQ9y3B6gFQqN30/EA/F4hYUGG0le72abI5+M8LQQTJP74lUez5QIa21AZ5lboYGUVm5GPaZwQtSrJwmLlhyxji8CNJu4rD1qjcMzEx2vcuLs4QwKyPfQEjtYGlFbbEfLeJ51yhklKbP9Hkh3LuUIlfLatXdo1Kkqaev"
   },
   "npmrc": "@entur-private:registry=https://entur2.jfrog.io/entur2/api/npm/partner-npm-local/\n//entur2.jfrog.io/entur2/api/npm/partner-npm-local/:_password=${NPM_TOKEN}\n//entur2.jfrog.io/entur2/api/npm/partner-npm-local/:username=renovatebot-id-basert\n//entur2.jfrog.io/entur2/api/npm/partner-npm-local/:email=teamkb@entur.org\n//entur2.jfrog.io/entur2/api/npm/partner-npm-local/:always-auth=true",
   "helm-values": {
